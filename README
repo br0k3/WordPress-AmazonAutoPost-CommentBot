@@ -1,0 +1,27 @@
+phpWPAAPFC
+v0.1
+
+PHP5 Word Press Amazon Auto Poster From Comment Posts
+
+This was made to use "spam" posts as a "trigger" to launch amazon auto posting, to populate the wordpress posts, was spawned off the Amazon Auto Poster wp-plugin.
+
+What this does is, when there is a POST request made to the 'wp-comments-post.php' script, this script will simply use that as an 'event' to fire off the Amazon Auto Poster.  Currently it is using a Newegg RSS Feed that gets randomly chosen from their site, it grabs a new product keyword, then searches on Amazon for it.  After finding a result, it performs the Amazon Auto Post into Word Press database.
+
+You must have a wp user setup with XML RPC rights enabled.
+
+--------------------------------------------------------------------
+Copyright (C) 2010 Bryan Seeds <generated110@hotmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
